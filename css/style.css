@@ -1,4 +1,33 @@
-#content{
-    margin: 0 auto;
-    width: 500px;
+.navbar {
+}
+.navbar ul li{
+    display: inline-flex;
+    text-decoration: none;
+    text-align: left;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.search-buttons {
+    display: inline-flex;
+}
+.footer .left ul li {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.footer .right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer .right ul li {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: flex-end;
 }
