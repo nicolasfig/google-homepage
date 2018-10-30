@@ -1,4 +1,18 @@
+/*add reset*/
+* {
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .navbar {
+    flex: c
 }
 .navbar ul li{
     display: inline-flex;
@@ -16,18 +30,15 @@
 .search-buttons {
     display: inline-flex;
 }
-.footer .left ul li {
-    display: inline-flex;
-    text-decoration: none;
-}
 
-.footer .right {
+.left {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.footer .right ul li {
-    display: inline-flex;
-    text-decoration: none;
-    align-items: flex-end;
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
