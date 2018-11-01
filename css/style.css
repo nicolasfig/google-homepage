@@ -18,25 +18,26 @@ li {
 
 nav {
     display: flex;
-    font-size: 13px;
     justify-content: flex-start;
-
 }
 
 .navbar-container {
+    align-items: center;
     display: flex;
     margin-left: auto;
     min-width: 220px;
+    justify-content: center;
     padding: 15px 30px 0 30px;
+    font-size: 13px;
 }
 
 .nav-item {
     flex: 1;
+    margin-right: 15px;
 }
 
 .nav-item a {
     color: rgba(0, 0, 0, 0.87);
-    justify-content: center;
 }
 
 .icon {
@@ -49,11 +50,18 @@ nav {
     opacity: .55;
 }
 
-.nav-item button {
+.nav-item .button {
     border: 1px solid #4285f4;
     background: -webkit-linear-gradient(top, #4387fd, #4683ea);
     color: #fff;
+    outline: none;
     font-weight: bold;
+    line-height: 28px;
+
+    padding: 0 12px;
+    white-space: nowrap;
+    border-radius: 2px;
+    font-size: 13px;
 }
 
 .content-container {
@@ -62,4 +70,10 @@ nav {
 
 .logo {
     margin: auto;
+}
+
+.search-form {
+}
+
+.footer-container {
 }
