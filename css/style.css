@@ -122,6 +122,7 @@ nav {
     vertical-align: middle;
     background-size: contain;
     align-self: center;
+    margin: 0 8px;
 }
 .search-buttons{
     height: 36px;
