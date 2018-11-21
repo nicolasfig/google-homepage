@@ -70,19 +70,18 @@ nav {
     align-items: center;
     margin-top: 89px;
     flex-direction: column;
+    top: 0px;
 }
 
 .logo {
-    height: 233px;
     padding-top: 109px;
     display: flex;
+   
 }
 .logo img {
-    margin: auto;
+    align-self: center;
 }
 .search-form {
-    border: 1px solid #000;
-    margin-top: 0;
     top: 311px;
     min-width: 980px;
     padding-left: 8px 284px 0 284px;
@@ -92,10 +91,12 @@ nav {
 }
 
 .search-form .text-field{
-    width: 584px;
+    width: 460px;
     height: 100%;
     padding: 5px 9px 0px;
     line-height: 0;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 .search-form .input-text {
@@ -104,6 +105,27 @@ nav {
     border: none;
     font: 16px arial, sans-serif;
     cursor: text;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    display: flex;
+    flex: 100%;
+    width: 420px;
+    height: 34px;
+    outline: none;
+}
+.search-form .mic{
+    background: url('//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background-size: contain;
+    align-self: center;
+}
+.search-buttons{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
 }
 .search-buttons input[type="button"]{
     margin: 11px 4px;
@@ -116,6 +138,7 @@ nav {
     border: 1px solid #f2f2f2;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    
 }
 .footer-container {
 }
