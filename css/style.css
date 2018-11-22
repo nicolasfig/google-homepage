@@ -41,7 +41,7 @@ nav {
 }
 
 .icon {
-    background: url("/img/icons.png") no-repeat;
+    background: url(../img/icons.png) no-repeat;
     background-size: 528px 68px;
     width: 30px;
     height: 30px;
