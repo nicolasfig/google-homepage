@@ -6,9 +6,6 @@
 body, html {
     font-family: Arial, sans-serif;
     font-size: small;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
 a {
